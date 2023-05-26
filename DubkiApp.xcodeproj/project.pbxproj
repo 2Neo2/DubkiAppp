@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C046129296F84360093B62F /* ScheduleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C046128296F84360093B62F /* ScheduleRepository.swift */; };
+		0C0A3CC0297C84C200980C02 /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0A3CBF297C84C200980C02 /* ScheduleListView.swift */; };
+		0C0A3CC3297C859400980C02 /* ScheduleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0A3CC2297C859400980C02 /* ScheduleListViewModel.swift */; };
+		0C0A3CC5297C875800980C02 /* ScheduleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0A3CC4297C875800980C02 /* ScheduleCellView.swift */; };
+		0C0A3CC8297C8AA500980C02 /* ScheduleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0A3CC7297C8AA500980C02 /* ScheduleCellViewModel.swift */; };
+		0C0A3CCB297C909400980C02 /* Enums+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0A3CCA297C909400980C02 /* Enums+Extension.swift */; };
+		0C7231152969D52400F2AD77 /* DubkiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7231142969D52400F2AD77 /* DubkiAppApp.swift */; };
+		0C7231172969D52400F2AD77 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7231162969D52400F2AD77 /* ScheduleView.swift */; };
+		0C7231192969D52700F2AD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7231182969D52700F2AD77 /* Assets.xcassets */; };
+		0C72311C2969D52700F2AD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C72311B2969D52700F2AD77 /* Preview Assets.xcassets */; };
+		0C723123296CBE9800F2AD77 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C723122296CBE9800F2AD77 /* CategoriesView.swift */; };
+		0C723129296D9C0300F2AD77 /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C723128296D9C0300F2AD77 /* DirectionView.swift */; };
+		0C72312C296EFEAC00F2AD77 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C72312B296EFEAC00F2AD77 /* CustomSegmentedControl.swift */; };
+		0C723132296F5F0900F2AD77 /* RoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C723131296F5F0900F2AD77 /* RoteModel.swift */; };
+		0C723135296F6EA800F2AD77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C723134296F6EA800F2AD77 /* GoogleService-Info.plist */; };
+		0CDE7ADE2970F3FF00E62BA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE7ADD2970F3FF00E62BA1 /* HomeView.swift */; };
+		0CDE7AE02970F55C00E62BA1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE7ADF2970F55C00E62BA1 /* NotificationView.swift */; };
+		0CDE7AE22970F56800E62BA1 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE7AE12970F56800E62BA1 /* MarketView.swift */; };
+		3D059F3A54EF33BDD9D03C4B /* Pods_DubkiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D71BD5A32679AC5C6710D7 /* Pods_DubkiApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C046128296F84360093B62F /* ScheduleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRepository.swift; sourceTree = "<group>"; };
+		0C0A3CBF297C84C200980C02 /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		0C0A3CC2297C859400980C02 /* ScheduleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListViewModel.swift; sourceTree = "<group>"; };
+		0C0A3CC4297C875800980C02 /* ScheduleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCellView.swift; sourceTree = "<group>"; };
+		0C0A3CC7297C8AA500980C02 /* ScheduleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCellViewModel.swift; sourceTree = "<group>"; };
+		0C0A3CCA297C909400980C02 /* Enums+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enums+Extension.swift"; sourceTree = "<group>"; };
+		0C7231112969D52400F2AD77 /* DubkiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubkiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7231142969D52400F2AD77 /* DubkiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubkiAppApp.swift; sourceTree = "<group>"; };
+		0C7231162969D52400F2AD77 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		0C7231182969D52700F2AD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C72311B2969D52700F2AD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C723122296CBE9800F2AD77 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		0C723128296D9C0300F2AD77 /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		0C72312B296EFEAC00F2AD77 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		0C723131296F5F0900F2AD77 /* RoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoteModel.swift; sourceTree = "<group>"; };
+		0C723134296F6EA800F2AD77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CDE7ADD2970F3FF00E62BA1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0CDE7ADF2970F55C00E62BA1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0CDE7AE12970F56800E62BA1 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		20D71BD5A32679AC5C6710D7 /* Pods_DubkiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DubkiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CE203FCB5CA0C370CCE4F7 /* Pods-DubkiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubkiApp.release.xcconfig"; path = "Target Support Files/Pods-DubkiApp/Pods-DubkiApp.release.xcconfig"; sourceTree = "<group>"; };
+		B3575BEF955B37D55FE03459 /* Pods-DubkiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubkiApp.debug.xcconfig"; path = "Target Support Files/Pods-DubkiApp/Pods-DubkiApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C72310E2969D52400F2AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D059F3A54EF33BDD9D03C4B /* Pods_DubkiApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C046127296F83FE0093B62F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0C046128296F84360093B62F /* ScheduleRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0C0A3CC1297C84F900980C02 /* ViewModels  */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A3CC2297C859400980C02 /* ScheduleListViewModel.swift */,
+				0C0A3CC7297C8AA500980C02 /* ScheduleCellViewModel.swift */,
+			);
+			path = "ViewModels ";
+			sourceTree = "<group>";
+		};
+		0C0A3CC6297C884100980C02 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				0C7231162969D52400F2AD77 /* ScheduleView.swift */,
+				0CDE7ADD2970F3FF00E62BA1 /* HomeView.swift */,
+				0CDE7AE12970F56800E62BA1 /* MarketView.swift */,
+				0CDE7ADF2970F55C00E62BA1 /* NotificationView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		0C0A3CC9297C8FE000980C02 /* Enums+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A3CCA297C909400980C02 /* Enums+Extension.swift */,
+			);
+			path = "Enums+Extensions";
+			sourceTree = "<group>";
+		};
+		0C7231082969D52400F2AD77 = {
+			isa = PBXGroup;
+			children = (
+				0C7231132969D52400F2AD77 /* DubkiApp */,
+				0C7231122969D52400F2AD77 /* Products */,
+				935FB21D67EFFD176907CAC6 /* Pods */,
+				4F99B85AC2B872FC6B5F5D53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C7231122969D52400F2AD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7231112969D52400F2AD77 /* DubkiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C7231132969D52400F2AD77 /* DubkiApp */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A3CC9297C8FE000980C02 /* Enums+Extensions */,
+				0C0A3CC1297C84F900980C02 /* ViewModels  */,
+				0CDE7AE32970F6E300E62BA1 /* App */,
+				0C046127296F83FE0093B62F /* Repositories */,
+				0C72312D296F474800F2AD77 /* Models */,
+				0C723126296D9BCE00F2AD77 /* Views */,
+				0C7231182969D52700F2AD77 /* Assets.xcassets */,
+				0C723134296F6EA800F2AD77 /* GoogleService-Info.plist */,
+				0C72311A2969D52700F2AD77 /* Preview Content */,
+			);
+			path = DubkiApp;
+			sourceTree = "<group>";
+		};
+		0C72311A2969D52700F2AD77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C72311B2969D52700F2AD77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C723126296D9BCE00F2AD77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A3CC6297C884100980C02 /* MenuView */,
+				0C723128296D9C0300F2AD77 /* DirectionView.swift */,
+				0C72312A296EFE9200F2AD77 /* CustomViews */,
+				0C0A3CBF297C84C200980C02 /* ScheduleListView.swift */,
+				0C723122296CBE9800F2AD77 /* CategoriesView.swift */,
+				0C0A3CC4297C875800980C02 /* ScheduleCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C72312A296EFE9200F2AD77 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0C72312B296EFEAC00F2AD77 /* CustomSegmentedControl.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0C72312D296F474800F2AD77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C723131296F5F0900F2AD77 /* RoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CDE7AE32970F6E300E62BA1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0C7231142969D52400F2AD77 /* DubkiAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4F99B85AC2B872FC6B5F5D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D71BD5A32679AC5C6710D7 /* Pods_DubkiApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935FB21D67EFFD176907CAC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3575BEF955B37D55FE03459 /* Pods-DubkiApp.debug.xcconfig */,
+				41CE203FCB5CA0C370CCE4F7 /* Pods-DubkiApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C7231102969D52400F2AD77 /* DubkiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C72311F2969D52700F2AD77 /* Build configuration list for PBXNativeTarget "DubkiApp" */;
+			buildPhases = (
+				025A356D61B625CA4C0C086D /* [CP] Check Pods Manifest.lock */,
+				0C72310D2969D52400F2AD77 /* Sources */,
+				0C72310E2969D52400F2AD77 /* Frameworks */,
+				0C72310F2969D52400F2AD77 /* Resources */,
+				9149B44A6F3ECD8A457FA2C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DubkiApp;
+			productName = DubkiApp;
+			productReference = 0C7231112969D52400F2AD77 /* DubkiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7231092969D52400F2AD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0C7231102969D52400F2AD77 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C72310C2969D52400F2AD77 /* Build configuration list for PBXProject "DubkiApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C7231082969D52400F2AD77;
+			productRefGroup = 0C7231122969D52400F2AD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C7231102969D52400F2AD77 /* DubkiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C72310F2969D52400F2AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C72311C2969D52700F2AD77 /* Preview Assets.xcassets in Resources */,
+				0C7231192969D52700F2AD77 /* Assets.xcassets in Resources */,
+				0C723135296F6EA800F2AD77 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025A356D61B625CA4C0C086D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DubkiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9149B44A6F3ECD8A457FA2C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DubkiApp/Pods-DubkiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DubkiApp/Pods-DubkiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DubkiApp/Pods-DubkiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C72310D2969D52400F2AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0A3CCB297C909400980C02 /* Enums+Extension.swift in Sources */,
+				0C723129296D9C0300F2AD77 /* DirectionView.swift in Sources */,
+				0CDE7AE02970F55C00E62BA1 /* NotificationView.swift in Sources */,
+				0C7231172969D52400F2AD77 /* ScheduleView.swift in Sources */,
+				0C723132296F5F0900F2AD77 /* RoteModel.swift in Sources */,
+				0C0A3CC8297C8AA500980C02 /* ScheduleCellViewModel.swift in Sources */,
+				0CDE7AE22970F56800E62BA1 /* MarketView.swift in Sources */,
+				0C046129296F84360093B62F /* ScheduleRepository.swift in Sources */,
+				0C0A3CC5297C875800980C02 /* ScheduleCellView.swift in Sources */,
+				0C0A3CC3297C859400980C02 /* ScheduleListViewModel.swift in Sources */,
+				0C7231152969D52400F2AD77 /* DubkiAppApp.swift in Sources */,
+				0CDE7ADE2970F3FF00E62BA1 /* HomeView.swift in Sources */,
+				0C0A3CC0297C84C200980C02 /* ScheduleListView.swift in Sources */,
+				0C723123296CBE9800F2AD77 /* CategoriesView.swift in Sources */,
+				0C72312C296EFEAC00F2AD77 /* CustomSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C72311D2969D52700F2AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C72311E2969D52700F2AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C7231202969D52700F2AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3575BEF955B37D55FE03459 /* Pods-DubkiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DubkiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hse.DubkiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C7231212969D52700F2AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CE203FCB5CA0C370CCE4F7 /* Pods-DubkiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DubkiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hse.DubkiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C72310C2969D52400F2AD77 /* Build configuration list for PBXProject "DubkiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C72311D2969D52700F2AD77 /* Debug */,
+				0C72311E2969D52700F2AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C72311F2969D52700F2AD77 /* Build configuration list for PBXNativeTarget "DubkiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7231202969D52700F2AD77 /* Debug */,
+				0C7231212969D52700F2AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7231092969D52400F2AD77 /* Project object */;
+}
